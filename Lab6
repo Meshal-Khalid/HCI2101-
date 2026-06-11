@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color: #2c3e50; text-align: center; font-size: 32px;">مشعل خالد القرشي</h1> 
+    
+    <p style="font-size: 18px; color: #7f8c8d;">تخصص: علم تفاعل الإنسان والحاسب آلي (HCI)، جامعة أم القرى.</p> 
+
+    <h2>Welcome</h2>
+    
+    <p>أتعلم لغة HTML لأنها <strong>أساسية</strong> لبناء المواقع الإلكترونية ومهمة جداً لتصميم <em>واجهات</em> المستخدم بشكل احترافي.</p>
+
+    <img src="images/my_photo.jpg" alt="صورة تعبيرية" width="300">
+
+    <br><br>
+
+    <nav>
+        <a href="about.html">الانتقال إلى صفحة About Me</a> | 
+        <a href="contact.html">اتصل بي (Contact Me)</a>
+    </nav>
+
+</body>
+</html>
+/* تنسيق لون خلفية الصفحات */
+body {
+    background-color: #f4f7f6;
+}
+
+/* تنسيق لون وحجم خط الفقرات لجميع الصفحات */
+p {
+    color: #333333;
+    font-size: 18px;
+}
+
+/* التنسيق الخاص بالـ id المحدد (الخطوة 5) */
+#main-title {
+    color: #1a5276;
+    font-size: 36px;
+}
+
+/* التنسيق الخاص بالـ class المحدد (الخطوة 5) */
+.university-info {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #ebf5fb; /* لون خلفية مخصص لهذه الصفحة */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* نوع الخط للصفحة */
+        }
+        h1, h2 {
+            text-align: right; /* محاذاة العناوين */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-title">مشعل خالد القرشي</h1> 
+    
+    <p class="university-info">تخصص: علم تفاعل الإنسان والحاسب آلي (HCI)، جامعة أم القرى.</p> 
+
+    <h2>My Interests</h2>
+    <ul>
+        <li>تصميم واجهات المستخدم (UI/UX)</li>
+        <li>تطوير مواقع الويب</li>
+        <li>القراءة والاطلاع على التقنيات الحديثة</li>
+    </ul>
+
+    <p>اقتباسي المفضل:</p>
+    <blockquote>"الرحلة بآلاف الأميال تبدأ بخطوة واحدة."</blockquote>
+
+    <br>
+
+    <nav>
+        <a href="index.html">العودة إلى الصفحة الرئيسية (Home Page)</a> | 
+        <a href="contact.html">اتصل بي (Contact Me)</a>
+    </nav>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>مشعل خالد القرشي</h1>
+
+    <p>يمكنكم التواصل معي عبر البريد الإلكتروني لأي استفسارات أو أسئلة: s446006130@uqu.edu.sa</p>
+
+    <br><br>
+
+    <nav>
+        <a href="index.html">العودة إلى الصفحة الرئيسية (Home Page)</a> | 
+        <a href="about.html">الانتقال إلى صفحة About Me</a>
+    </nav>
+
+</body>
+</html>
